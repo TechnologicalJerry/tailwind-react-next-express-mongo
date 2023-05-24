@@ -2,7 +2,7 @@ import React from 'react'
 
 const page = () => {
     return (
-        <div>Helli, Welcome to posts page</div>
+        <div>{postId}</div>
     )
 }
 
