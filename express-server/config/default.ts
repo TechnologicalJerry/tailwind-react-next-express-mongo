@@ -1,4 +1,5 @@
 export default {
-    port: 5050,
-    databadeUrl: 'mongodb://localhost:27017/bootstrap-angular-express-node-mongo'
+    serverPort: 5050,
+    databaseHost: 'mongodb://localhost:27017/',
+    databaseName: 'tailwind-react-next-express-mongo'
 }
