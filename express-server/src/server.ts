@@ -9,7 +9,7 @@ dotenv.config();
 
 const app = express();
 
-const PORT = config.get<number>('port');
+const PORT = config.get<number>('serverPort');
 
 app.use(express.json());
 
